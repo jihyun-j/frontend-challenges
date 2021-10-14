@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  align-content: center;
+  margin-top: 200px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.orange {
+  background-color: #e38826;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.green {
+  background-color: #006970;
+}
+
+.dark-green {
+  background-color: #004241;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.icon {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-family: "Lexend Deca", sans-serif;
+  color: #ffffffbf;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 80px;
+}
+
+.flex-box a:link,
+.flex-box a:visited {
+  font-family: "Lexend Deca", sans-serif;
+  width: 100px;
+  background-color: #f2f2f2;
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding: 12px 24px;
+  border: 3px solid #f2f2f2;
+  border-radius: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.orange a {
+  color: #e38826;
+}
+
+.orange a:hover,
+.orange a:active {
+  color: #f2f2f2;
+  border: 3px solid #f2f2f2;
+  background-color: #e38826;
+}
+
+.green a {
+  color: #006970;
+}
+
+.green a:hover,
+.green a:active {
+  color: #f2f2f2;
+  border: 3px solid #f2f2f2;
+  background-color: #006970;
+}
+
+.dark-green a {
+  color: #004241;
+}
+
+.dark-green a:hover,
+.dark-green a:active {
+  color: #f2f2f2;
+  border: 3px solid #f2f2f2;
+  background-color: #004241;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
